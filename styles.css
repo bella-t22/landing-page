@@ -8,11 +8,12 @@ body {
 
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
     margin: 0;
+    padding: 8px 100px;
     position: top;
     top: 0;
 }
@@ -33,7 +34,8 @@ li {
 
 .hero {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
     padding: 100px;
@@ -42,8 +44,126 @@ li {
 h1 {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero button {
+    padding: 8px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8
+}
+
+.hero img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .left-content {
+    width: 600px;
+}
 
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-top: 100px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+    text-align: center;
+    color:#1f2937;
+
+}
+
+.content img {
+    width: 250px;
+    height: 155px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.content p {
+    margin: 5px;
+    font-size: 18px;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 250px;
+}
+
+.testimonial .quote {
+    font-size: 24px;
+    color: #1f2937
+}
+
+.testimonial .subject {
+    color: #1f2937;
+    font-size: 18px;
+    font-weight: 700;
+    align-self: flex-end;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    padding: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.call-to-action h2 {
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    text-align: start;
+}
+
+.call-to-action p {
+    font-size: 18px;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+.action button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 8px 24px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: bottom;
+    bottom: 0;
 }
